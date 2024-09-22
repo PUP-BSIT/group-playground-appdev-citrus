@@ -6,3 +6,11 @@ enum Animal {
     CHICKEN = "Chicken"
 }
 
+type Pet = {
+    species: Animal;
+    gender: string;
+    lifespan: string;
+    color: string;
+    breed: string;
+    print(): void;
+}
